@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	background-color: #D90368;
+}
+
+ul{
+	list-style: none;
+	padding-left:0;
+}
+
+li{
+	display: inline;
+	margin-right: 20px;
+}
+.allnav{
+	background-color: #D90368;
+	width: 100%;
+}
+.menu div{
+	width: 35px;
+	height: 5px;
+	background-color: rgb(32, 163, 158);
+	margin: 5px;
+}
+
+.boxone{
+	color: #FFBA49;
+}
+
+.boxtwo{
+	color: #E0D2C3;
+}
+
+.boxthree{
+	color: #08415C;
+}
+
+.boxfour{
+	color: white;
+}
+
+.active{
+	display: none;
+}
+
+.boxfour:not(.active){
+	animation: textbox 2s ease-out;
+}
+
+@keyframes textbox {
+  0% {
+    transform: translateX(40rem) translateY(10rem);
+  }
+
+}
+
+
